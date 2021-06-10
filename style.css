@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+  
+}
+header{
+    background-color: #526d16;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    
+}
+header a{
+    color: #fff;
+}
+.logo{
+    margin: 0 auto;
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 10px;
+}
+.social-link ul li{
+    padding: 10px;
+}
+.main{
+    display: flex;
+}
+aside{
+    flex: 0 0 20vw;
+    background-color: #77660094;
+    
+}
+aside ul li a{
+    color: #000000;
+    font-weight: 600;
+}
+aside img{
+    width: 338px;
+    height: auto;
+    margin: 18px;
+   
+  
+}
+aside ul{
+    display: block;
+
+}
+aside ul li a{
+    padding: 20px 20px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+article{
+    padding: 20px;
+}
+article p{
+    margin-top: 10px;
+
+}
+article h2{
+    margin-top: 10px;
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    border: 1px solid #eee;
+    flex-basis: 32%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.service-box h3{
+    margin-top: 10px;
+}
+.service-box p{
+    margin-top: 10px;
+}
+.btn{
+    align-self: flex-start;
+    margin-top: 15px;
+}
+.btn a:hover{
+    background-color: transparent;
+    border: 2px solid gray;
+    color: #111;
+    transition: .5s;
+}
+.btn a{
+    background-color: gray;
+    border: 2px solid transparent;
+    color: #fff;
+    padding: 8px 10px;
+    display: block;
+   
+}
+footer{
+    background: #526d16;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media  screen and (max-width: 1850px){
+    aside{
+        flex: 0 0 20vw;
+    
+}
+@media  screen and (max-width: 1790px){
+    aside{
+        flex: 0 0 25vw;
+    
+}
+@media  screen and (max-width: 1450px){
+    aside{
+        flex: 0 0 27vw;
+    
+}
+@media  screen and (max-width: 1350px){
+    aside{
+        flex: 0 0 30vw;
+    
+}
+@media  screen and (max-width: 1200px){
+    aside{
+        flex: 0 0 33vw;
+    
+}
+@media  screen and (max-width: 1100px){
+    aside{
+        flex: 0 0 35vw;
+    
+}
+@media  screen and (max-width: 1050px){
+    aside{
+        flex: 0 0 38vw;
+    
+}
+@media  screen and (min-width: 750px) and (max-width: 950px){
+    aside{
+        flex: 0 0 50vw;
+    }
+}
+@media  screen and (max-width: 1000px){
+    .service-box{
+        flex-basis: 48%;
+    }
+    
+}
+@media  screen and (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        order: -1;
+    }
+    article{
+        order: -1;
+    }
+    .main{
+        flex-direction: column;
+    }
+    aside img{
+        width: 500px;
+     
+
+    }
+    h2{
+        text-align: center;
+    }
+    .services-container{
+        flex-direction: column;
+    }
+    
+}
